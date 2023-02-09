@@ -18,7 +18,8 @@ Um tipo de variável que não segura uma instancia forte e pode ser desalocada s
 <img width="287" alt="Weak reference" src="https://user-images.githubusercontent.com/26680389/217901597-2c712540-0e2b-4719-9576-a6b66ede9fab.png">
 
 
-Unowned -> parecido com a variável weak porem a principal diferença é que esse tipo de variável sempre garante um valor, ou seja, ele não pode ser optional.
+### Unowned:
+Parecido com a variável weak porem a principal diferença é que esse tipo de variável sempre garante um valor, ou seja, ele não pode ser optional.
 
 
 Documentação oficial do Swift sobre gerenciamento de memória: https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html
